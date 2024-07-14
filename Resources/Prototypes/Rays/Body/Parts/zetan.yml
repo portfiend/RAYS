@@ -7,9 +7,9 @@
   - type: Extractable
     juiceSolution:
       reagents:
-      - ReagentId: Nutriment
+      - ReagentId: Fat
         Quantity: 3
-      - ReagentId: Sugar
+      - ReagentId: Blood
         Quantity: 10
 
 - type: entity
@@ -23,9 +23,9 @@
   - type: Extractable
     juiceSolution:
       reagents:
-      - ReagentId: Nutriment
+      - ReagentId: Fat
         Quantity: 10
-      - ReagentId: Sugar
+      - ReagentId: Blood
         Quantity: 20
 
 - type: entity
@@ -39,9 +39,9 @@
   - type: Extractable
     juiceSolution:
       reagents:
-      - ReagentId: Nutriment
+      - ReagentId: Fat
         Quantity: 5
-      - ReagentId: Sugar
+      - ReagentId: Blood
         Quantity: 10
 
 - type: entity
