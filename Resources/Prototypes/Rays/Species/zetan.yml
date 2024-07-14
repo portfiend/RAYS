@@ -4,7 +4,7 @@
   roundStart: true
   prototype: MobZetan
   sprites: MobZetanSprites
-  markingLimits: MobHumanMarkingLimits
+  markingLimits: MobZetanMarkingLimits
   dollPrototype: MobZetanDummy
   skinColoration: Hues
   maleFirstNames: names_zetan_first
@@ -27,6 +27,35 @@
     RLeg: MobZetanRLeg
     LFoot: MobZetanLFoot
     RFoot: MobZetanRFoot
+
+- type: markingPoints
+  id: MobZetanMarkingLimits
+  onlyWhitelisted: true
+  points:
+    Hair:
+      points: 0
+      required: false
+    FacialHair:
+      points: 0
+      required: false
+    Snout:
+      points: 1
+      required: false
+    Tail:
+      points: 0
+      required: false
+    HeadTop:
+      points: 0
+      required: false
+    Chest:
+      points: 1
+      required: false
+    Legs:
+      points: 2
+      required: false
+    Arms:
+      points: 2
+      required: false
 
 - type: humanoidBaseSprite
   id: MobZetanEyes
