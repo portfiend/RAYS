@@ -20,6 +20,22 @@
       amount: 5
   - type: Hunger
   - type: Thirst
+  - type: Sprite
+    noRot: true
+    drawdepth: Mobs
+    scale: 0.8, 0.8
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 150
+        restitution: 0.0
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
 
 - type: entity
   parent: BaseSpeciesDummy
@@ -28,3 +44,5 @@
   components:
   - type: HumanoidAppearance
     species: Zetan
+  - type: Sprite
+    scale: 0.8, 0.8
