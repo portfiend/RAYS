@@ -6,8 +6,7 @@
   sprites: MobZetanSprites
   markingLimits: MobHumanMarkingLimits
   dollPrototype: MobZetanDummy
-  skinColoration: HumanToned
-  defaultSkinTone: "#9a7c5a"
+  skinColoration: Hues
   maleFirstNames: names_zetan_first
   femaleFirstNames: names_zetan_first
   lastNames: names_zetan_last
