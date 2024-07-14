@@ -1,0 +1,30 @@
+- type: entity
+  save: false
+  name: Urist McGray
+  parent: BaseMobSpeciesOrganic
+  id: BaseMobZetan
+  abstract: true
+  components:
+  - type: HumanoidAppearance
+    species: Zetan
+  - type: Icon
+    sprite: Rays/Mobs/Species/Zetan/parts.rsi
+    state: full
+  - type: Damageable
+    damageContainer: Biological
+    damageModifierSet: Zetan
+  - type: Butcherable
+    butcheringType: Spike
+    spawned:
+    - id: FoodMeatHuman
+      amount: 5
+  - type: Hunger
+  - type: Thirst
+
+- type: entity
+  parent: BaseSpeciesDummy
+  id: MobZetanDummy
+  noSpawn: true
+  components:
+  - type: HumanoidAppearance
+    species: Zetan
