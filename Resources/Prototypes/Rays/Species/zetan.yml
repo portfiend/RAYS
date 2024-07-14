@@ -8,6 +8,9 @@
   dollPrototype: MobZetanDummy
   skinColoration: HumanToned
   defaultSkinTone: "#9a7c5a"
+  maleFirstNames: names_zetan_first
+  femaleFirstNames: names_zetan_first
+  lastNames: names_zetan_last
 
 - type: speciesBaseSprites
   id: MobZetanSprites
