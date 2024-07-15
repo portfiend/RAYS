@@ -36,6 +36,17 @@
         - MobMask
         layer:
         - MobLayer
+  - type: Temperature
+    heatDamageThreshold: 400
+    coldDamageThreshold: 285
+    currentTemperature: 310.15
+    specificHeat: 42
+    coldDamage:
+      types:
+        Cold : 0.1 # per second, scales with temperature & other constants
+    heatDamage:
+      types:
+        Heat : 1.5 # per second, scales with temperature & other constants
 
 - type: entity
   parent: BaseSpeciesDummy
