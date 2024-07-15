@@ -17,6 +17,8 @@
     Head: MobZetanHead
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
+    Hair: MobHumanoidAnyMarking
+    FacialHair: MobHumanoidAnyMarking
     Chest: MobZetanTorso
     Eyes: MobHumanoidAnyMarking
     LArm: MobZetanLArm
@@ -30,13 +32,12 @@
 
 - type: markingPoints
   id: MobZetanMarkingLimits
-  onlyWhitelisted: true
   points:
     Hair:
-      points: 0
+      points: 1
       required: false
     FacialHair:
-      points: 0
+      points: 1
       required: false
     Eyes:
       points: 1
