@@ -18,7 +18,7 @@
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
     Chest: MobZetanTorso
-    Eyes: MobZetanEyes
+    Eyes: MobHumanoidAnyMarking
     LArm: MobZetanLArm
     RArm: MobZetanRArm
     LHand: MobZetanLHand
@@ -38,6 +38,10 @@
     FacialHair:
       points: 0
       required: false
+    Eyes:
+      points: 1
+      required: true
+      defaultMarkings: [ AlienEyes ]
     Snout:
       points: 1
       required: false
@@ -56,12 +60,6 @@
     Arms:
       points: 2
       required: false
-
-- type: humanoidBaseSprite
-  id: MobZetanEyes
-  baseSprite:
-    sprite: Rays/Mobs/Customization/eyes.rsi
-    state: alien
 
 - type: humanoidBaseSprite
   id: MobZetanHead

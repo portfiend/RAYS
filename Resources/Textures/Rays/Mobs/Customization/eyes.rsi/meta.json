@@ -10,6 +10,18 @@
     {
       "name": "alien",
       "directions": 4
+    },
+    {
+      "name": "alien_big",
+      "directions": 4
+    },
+    {
+      "name": "alien_three",
+      "directions": 4
+    },
+    {
+      "name": "alien_wide",
+      "directions": 4
     }
   ]
 }
