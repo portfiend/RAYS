@@ -1,0 +1,54 @@
+- type: entity
+  name: raw alien meat
+  parent: FoodMeatRawBase
+  id: FoodMeatAlien
+  description: A slab of raw alien meat.
+  components:
+  - type: Sprite
+    state: plain
+    color: "#CCCCCC"
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: UncookedAnimalProteins
+          Quantity: 9
+        - ReagentId: Fat
+          Quantity: 9
+  - type: SliceableFood
+    count: 3
+    slice: FoodMeatCutlet
+  - type: Construction
+    graph: AlienSteak
+    node: start
+    defaultTarget: alien steak
+
+- type: entity
+  name: alien steak
+  parent: FoodMeatBase
+  id: FoodMeatAlienCooked
+  description: Cooked, tough alien meat.
+  components:
+  - type: Tag
+    tags:
+    - Cooked
+    - Meat
+    - Steak
+  - type: Sprite
+    layers:
+    - state: plain-cooked
+      color: "#CCCCCC"
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 5
+        - ReagentId: Protein
+          Quantity: 5
+  - type: SliceableFood
+    count: 3
+    slice: FoodMeatCutletCooked
+  - type: Construction
+    graph: AlienSteak
+    node: alien steak

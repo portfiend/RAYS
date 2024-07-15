@@ -16,7 +16,7 @@
   - type: Butcherable
     butcheringType: Spike
     spawned:
-    - id: FoodMeatHuman
+    - id: FoodMeatAlien
       amount: 5
   - type: Hunger
   - type: Thirst
