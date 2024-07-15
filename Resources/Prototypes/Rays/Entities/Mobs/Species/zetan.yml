@@ -20,6 +20,7 @@
       amount: 5
   - type: Hunger
   - type: Thirst
+  - type: Telepath
   - type: Sprite
     noRot: true
     drawdepth: Mobs
