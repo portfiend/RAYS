@@ -7,7 +7,6 @@
     default:
       type:
         !type:EyeColoring
-          negative: true
   sprites:
   - sprite: Rays/Mobs/Customization/eyes.rsi
     state: alien
@@ -21,7 +20,6 @@
     default:
       type:
         !type:EyeColoring
-          negative: true
   sprites:
   - sprite: Rays/Mobs/Customization/eyes.rsi
     state: alien_big
@@ -35,7 +33,6 @@
     default:
       type:
         !type:EyeColoring
-          negative: true
   sprites:
   - sprite: Rays/Mobs/Customization/eyes.rsi
     state: alien_three
@@ -49,7 +46,6 @@
     default:
       type:
         !type:EyeColoring
-          negative: true
   sprites:
   - sprite: Rays/Mobs/Customization/eyes.rsi
     state: alien_wide
@@ -63,7 +59,6 @@
     default:
       type:
         !type:EyeColoring
-          negative: true
   sprites:
   - sprite: Mobs/Customization/eyes.rsi
     state: eyes
