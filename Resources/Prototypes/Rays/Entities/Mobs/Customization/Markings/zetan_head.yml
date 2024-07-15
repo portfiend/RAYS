@@ -1,0 +1,35 @@
+- type: marking
+  id: ZetanAntennae
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [ Zetan ]
+  sprites:
+  - sprite: Rays/Mobs/Customization/zetan_head.rsi
+    state: antennae
+
+- type: marking
+  id: ZetanAntennaeSide
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [ Zetan ]
+  sprites:
+  - sprite: Rays/Mobs/Customization/zetan_head.rsi
+    state: antennae_side
+
+- type: marking
+  id: ZetanAntenna
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [ Zetan ]
+  sprites:
+  - sprite: Rays/Mobs/Customization/zetan_head.rsi
+    state: antenna
+
+- type: marking
+  id: ZetanEars
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [ Zetan ]
+  sprites:
+  - sprite: Rays/Mobs/Customization/zetan_head.rsi
+    state: ears
