@@ -149,6 +149,7 @@ namespace Content.Client.Lobby.UI
             NameEdit.OnTextChanged += args => { SetName(args.Text); };
             NameRandomize.OnPressed += args => RandomizeName();
             RandomizeEverythingButton.OnPressed += args => { RandomizeEverything(); };
+            RandomizeBodyButton.OnPressed += args => { RandomizeBody(); };
             WarningLabel.SetMarkup($"[color=red]{Loc.GetString("humanoid-profile-editor-naming-rules-warning")}[/color]");
 
             #endregion Name
@@ -1501,6 +1502,18 @@ namespace Content.Client.Lobby.UI
         private void RandomizeEverything()
         {
             Profile = HumanoidCharacterProfile.Random();
+            SetProfile(Profile, CharacterSlot);
+            SetDirty();
+        }
+
+        private void RandomizeBody()
+        {
+            if (Profile == null)
+            {
+                return;
+            }
+
+            Profile = HumanoidCharacterProfile.RandomBody(Profile);
             SetProfile(Profile, CharacterSlot);
             SetDirty();
         }
