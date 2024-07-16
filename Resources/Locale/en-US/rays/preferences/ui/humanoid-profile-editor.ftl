@@ -1,0 +1,1 @@
+humanoid-profile-editor-randomize-body-button = Randomize body
