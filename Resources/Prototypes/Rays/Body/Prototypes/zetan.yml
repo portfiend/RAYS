@@ -1,0 +1,49 @@
+- type: body
+  id: Zetan
+  name: zetan
+  root: torso
+  slots:
+    head:
+      part: HeadZetan
+      connections:
+      - torso
+      organs:
+        brain: OrganHumanBrain
+        eyes: OrganHumanEyes
+    torso:
+      part: TorsoZetan
+      connections:
+      - right arm
+      - left arm
+      - right leg
+      - left leg
+      organs:
+        heart: OrganHumanHeart
+        lungs: OrganHumanLungs
+        stomach: OrganHumanStomach
+        liver: OrganHumanLiver
+        kidneys: OrganHumanKidneys
+    right arm:
+      part: RightArmZetan
+      connections:
+      - right hand
+    left arm:
+      part: LeftArmZetan
+      connections:
+      - left hand
+    right hand:
+      part: RightHandZetan
+    left hand:
+      part: LeftHandZetan
+    right leg:
+      part: RightLegZetan
+      connections:
+      - right foot
+    left leg:
+      part: LeftLegZetan
+      connections:
+      - left foot
+    right foot:
+      part: RightFootZetan
+    left foot:
+      part: LeftFootZetan

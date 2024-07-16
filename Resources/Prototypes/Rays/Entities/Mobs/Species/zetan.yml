@@ -1,0 +1,60 @@
+- type: entity
+  save: false
+  name: Urist McGray
+  parent: BaseMobSpeciesOrganic
+  id: BaseMobZetan
+  abstract: true
+  components:
+  - type: HumanoidAppearance
+    species: Zetan
+  - type: Icon
+    sprite: Rays/Mobs/Species/Zetan/parts.rsi
+    state: full
+  - type: Damageable
+    damageContainer: Biological
+    damageModifierSet: Zetan
+  - type: Butcherable
+    butcheringType: Spike
+    spawned:
+    - id: FoodMeatAlien
+      amount: 5
+  - type: Hunger
+  - type: Thirst
+  - type: Telepath
+  - type: Sprite
+    noRot: true
+    drawdepth: Mobs
+    scale: 0.8, 0.8
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 150
+        restitution: 0.0
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+  - type: Temperature
+    heatDamageThreshold: 400
+    coldDamageThreshold: 285
+    currentTemperature: 310.15
+    specificHeat: 42
+    coldDamage:
+      types:
+        Cold : 0.1 # per second, scales with temperature & other constants
+    heatDamage:
+      types:
+        Heat : 1.5 # per second, scales with temperature & other constants
+
+- type: entity
+  parent: BaseSpeciesDummy
+  id: MobZetanDummy
+  noSpawn: true
+  components:
+  - type: HumanoidAppearance
+    species: Zetan
+  - type: Sprite
+    scale: 0.8, 0.8

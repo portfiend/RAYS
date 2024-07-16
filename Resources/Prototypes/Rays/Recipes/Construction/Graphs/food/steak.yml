@@ -1,0 +1,16 @@
+- type: constructionGraph
+  id: AlienSteak
+  start: start
+  graph:
+
+  - node: start
+    edges:
+    - to: alien steak
+      completed:
+      - !type:PlaySound
+        sound: /Audio/Effects/sizzle.ogg
+      steps:
+      - minTemperature: 335
+
+  - node: alien steak
+    entity: FoodMeatAlienCooked

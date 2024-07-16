@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "portfiend",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "antenna",
+      "directions": 4
+    },
+    {
+      "name": "antennae",
+      "directions": 4
+    },
+    {
+      "name": "antennae_side",
+      "directions": 4
+    },
+    {
+      "name": "ears",
+      "directions": 4
+    }
+  ]
+}

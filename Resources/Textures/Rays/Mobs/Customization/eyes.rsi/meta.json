@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "portfiend",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "alien",
+      "directions": 4
+    },
+    {
+      "name": "alien_big",
+      "directions": 4
+    },
+    {
+      "name": "alien_three",
+      "directions": 4
+    },
+    {
+      "name": "alien_wide",
+      "directions": 4
+    }
+  ]
+}

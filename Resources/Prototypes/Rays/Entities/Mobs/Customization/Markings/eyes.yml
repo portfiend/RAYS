@@ -1,0 +1,64 @@
+- type: marking
+  id: AlienEyes
+  bodyPart: Eyes
+  markingCategory: Eyes
+  speciesRestriction: [ Zetan ]
+  coloring:
+    default:
+      type:
+        !type:EyeColoring
+  sprites:
+  - sprite: Rays/Mobs/Customization/eyes.rsi
+    state: alien
+
+- type: marking
+  id: AlienEyesBig
+  bodyPart: Eyes
+  markingCategory: Eyes
+  speciesRestriction: [ Zetan ]
+  coloring:
+    default:
+      type:
+        !type:EyeColoring
+  sprites:
+  - sprite: Rays/Mobs/Customization/eyes.rsi
+    state: alien_big
+
+- type: marking
+  id: AlienEyesThree
+  bodyPart: Eyes
+  markingCategory: Eyes
+  speciesRestriction: [ Zetan ]
+  coloring:
+    default:
+      type:
+        !type:EyeColoring
+  sprites:
+  - sprite: Rays/Mobs/Customization/eyes.rsi
+    state: alien_three
+
+- type: marking
+  id: AlienEyesWide
+  bodyPart: Eyes
+  markingCategory: Eyes
+  speciesRestriction: [ Zetan ]
+  coloring:
+    default:
+      type:
+        !type:EyeColoring
+  sprites:
+  - sprite: Rays/Mobs/Customization/eyes.rsi
+    state: alien_wide
+
+- type: marking
+  id: DefaultEyes
+  bodyPart: Eyes
+  markingCategory: Eyes
+  speciesRestriction: [ Zetan ]
+  coloring:
+    default:
+      type:
+        !type:EyeColoring
+  sprites:
+  - sprite: Mobs/Customization/eyes.rsi
+    state: eyes

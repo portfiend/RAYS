@@ -1,0 +1,10 @@
+
+# Cold-blooded and physically weak
+- type: damageModifierSet
+  id: Zetan
+  coefficients:
+    Cold: 1.3
+    Heat: 0.9
+    Blunt: 1.1
+    Slash: 1.1
+    Piercing: 1.1

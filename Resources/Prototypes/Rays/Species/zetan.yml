@@ -1,0 +1,147 @@
+- type: species
+  id: Zetan
+  name: species-name-zetan
+  roundStart: true
+  prototype: MobZetan
+  sprites: MobZetanSprites
+  markingLimits: MobZetanMarkingLimits
+  dollPrototype: MobZetanDummy
+  skinColoration: Hues
+  maleFirstNames: names_zetan_first
+  femaleFirstNames: names_zetan_first
+  lastNames: names_zetan_last
+
+- type: speciesBaseSprites
+  id: MobZetanSprites
+  sprites:
+    Head: MobZetanHead
+    HeadTop: MobHumanoidAnyMarking
+    HeadSide: MobHumanoidAnyMarking
+    Hair: MobHumanoidAnyMarking
+    FacialHair: MobHumanoidAnyMarking
+    Chest: MobZetanTorso
+    Eyes: MobHumanoidAnyMarking
+    LArm: MobZetanLArm
+    RArm: MobZetanRArm
+    LHand: MobZetanLHand
+    RHand: MobZetanRHand
+    LLeg: MobZetanLLeg
+    RLeg: MobZetanRLeg
+    LFoot: MobZetanLFoot
+    RFoot: MobZetanRFoot
+
+- type: markingPoints
+  id: MobZetanMarkingLimits
+  points:
+    Hair:
+      points: 1
+      required: false
+    FacialHair:
+      points: 1
+      required: false
+    Eyes:
+      points: 1
+      required: true
+      defaultMarkings: [ AlienEyes ]
+    Snout:
+      points: 1
+      required: false
+    Tail:
+      points: 0
+      required: false
+    HeadTop:
+      points: 0
+      required: false
+    Chest:
+      points: 1
+      required: false
+    Legs:
+      points: 2
+      required: false
+    Arms:
+      points: 2
+      required: false
+
+- type: humanoidBaseSprite
+  id: MobZetanHead
+  baseSprite:
+    sprite: Rays/Mobs/Species/Zetan/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobZetanHeadMale
+  baseSprite:
+    sprite: Rays/Mobs/Species/Zetan/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobZetanHeadFemale
+  baseSprite:
+    sprite: Rays/Mobs/Species/Zetan/parts.rsi
+    state: head_f
+
+- type: humanoidBaseSprite
+  id: MobZetanTorso
+  baseSprite:
+    sprite: Rays/Mobs/Species/Zetan/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobZetanTorsoMale
+  baseSprite:
+    sprite: Rays/Mobs/Species/Zetan/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobZetanTorsoFemale
+  baseSprite:
+    sprite: Rays/Mobs/Species/Zetan/parts.rsi
+    state: torso_f
+
+- type: humanoidBaseSprite
+  id: MobZetanLLeg
+  baseSprite:
+    sprite: Rays/Mobs/Species/Zetan/parts.rsi
+    state: l_leg
+
+- type: humanoidBaseSprite
+  id: MobZetanLHand
+  baseSprite:
+    sprite: Rays/Mobs/Species/Zetan/parts.rsi
+    state: l_hand
+
+- type: humanoidBaseSprite
+  id: MobZetanLArm
+  baseSprite:
+    sprite: Rays/Mobs/Species/Zetan/parts.rsi
+    state: l_arm
+
+- type: humanoidBaseSprite
+  id: MobZetanLFoot
+  baseSprite:
+    sprite: Rays/Mobs/Species/Zetan/parts.rsi
+    state: l_foot
+
+- type: humanoidBaseSprite
+  id: MobZetanRLeg
+  baseSprite:
+    sprite: Rays/Mobs/Species/Zetan/parts.rsi
+    state: r_leg
+
+- type: humanoidBaseSprite
+  id: MobZetanRHand
+  baseSprite:
+    sprite: Rays/Mobs/Species/Zetan/parts.rsi
+    state: r_hand
+
+- type: humanoidBaseSprite
+  id: MobZetanRArm
+  baseSprite:
+    sprite: Rays/Mobs/Species/Zetan/parts.rsi
+    state: r_arm
+
+- type: humanoidBaseSprite
+  id: MobZetanRFoot
+  baseSprite:
+    sprite: Rays/Mobs/Species/Zetan/parts.rsi
+    state: r_foot
