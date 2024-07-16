@@ -262,6 +262,19 @@ namespace Content.Shared.Preferences
             };
         }
 
+        public static HumanoidCharacterProfile RandomBody(HumanoidCharacterProfile profile)
+        {            
+            return new HumanoidCharacterProfile()
+            {
+                Name = profile.Name,
+                Sex = profile.Sex,
+                Age = profile.Age,
+                Gender = profile.Gender,
+                Species = profile.Species,
+                Appearance = HumanoidCharacterAppearance.Random(profile.Species, profile.Sex),
+            };
+        }
+
         public HumanoidCharacterProfile WithName(string name)
         {
             return new(this) { Name = name };
