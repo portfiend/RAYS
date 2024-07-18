@@ -86,6 +86,11 @@ namespace Content.Shared.Chat
         Unspecified = 1 << 14,
 
         /// <summary>
+        ///     Nyano - Summary:: Telepathic channel for all psionic entities.
+        /// </summary>
+        Telepathic = 1 << 15,
+
+        /// <summary>
         ///     Channels considered to be IC.
         /// </summary>
         IC = Local | Whisper | Radio | Dead | Emotes | Damage | Visual | Notifications,
